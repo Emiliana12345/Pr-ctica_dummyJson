@@ -78,6 +78,7 @@ function cargarDetalle(id) {
         <img src="${producto.thumbnail}" alt="${producto.title}">
         <p><strong>Descripción:</strong> ${producto.description}</p>
         <p><strong>Precio:</strong> $${producto.price}</p>
+        <p><strong>Marca:</strong> ${producto.brand}</p>
         <p><strong>Categoría:</strong> ${producto.category}</p>
 
         <hr>
